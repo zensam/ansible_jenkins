@@ -1,0 +1,7 @@
+---
+postfix_domain: 'yaco-r.net'
+postfix_notify_email: false
+postfix_relayhost: 'mail.d-net.kiev.ua'
+postfix_use_smtp: true
+postfix_relayhost_user: false
+postfix_relayhost_pass: false

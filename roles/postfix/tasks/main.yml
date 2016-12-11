@@ -1,11 +1,11 @@
 ---
 # Defines tasks to install and configure Postfix
 
-# - name: Include the OS specific varibles
-#   # include_vars: "{{ ansible_os_family }}.yml"
-#   tags:
-#     - common
-#     - postfix
+- name: Include the OS specific varibles
+  include_vars: "{{ ansible_os_family }}.yml"
+  tags:
+    - common
+    - postfix
 
 - name: Create pre-seed values for Postfix configuration
   template: >
